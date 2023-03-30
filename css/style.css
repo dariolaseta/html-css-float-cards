@@ -17,12 +17,35 @@ h1{
 
 .text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     margin-top: 40px;
 }
 
 .box{
-    width: 800px;
-    height: 900px;
+    width: 1500px;
     margin: 0 auto;
+    text-align: center;
+}
+
+.box-bg{
+    margin: 40px 40px 0 10px;
+    width: 30%;
+    background-color: #0f0e17;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
+img{
+    height: 8rem;
+    float: left;
+}
+
+.float-left{
+    color: white;
+    float: left;
+    margin: 10px 10px;
+    margin-left: 20px;
+}
+
+.blue-text{
+    color: #4fc2fa;
 }
