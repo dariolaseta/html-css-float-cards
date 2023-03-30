@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    color: #e53170;
+    font-size: 40px;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box{
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+}
